@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: Arial,serif;
+    font-weight: 500;
+}
+
+.header {
+    height: 300px;
+    background: url(/html_public/images/head.jpg) no-repeat center top;
+    background-size: 1920px;
+}
+
+h1 {
+    color: black;
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 200%;
+    position: relative;
+    top: 0px;
+}
+
+.layer {
+    position: relative;
+    width: 1000px;
+    font-size: 11.5pt;
+    line-height: 1.25;
+    height: 50px;
+    margin: 0 auto;
+}
+
+
+table.view-table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    width: 200px;
+    min-height: 100px;
+    border: none;
+    word-wrap: break-word;
+}
+
+table.view-table th {
+    border: none;
+    vertical-align: bottom;
+}
+
+table.view-table th td {
+    padding: 5px;
+    border: 1px solid lightgrey;
+}
+
+#footer {
+    clear:both;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    height: 50px;
+    width: 900px;
+}
+
+input[name="nameForm"]{
+    position: absolute;
+    height: 15px;
+    width: 170px;
+    font-size: 9pt;
+    top: -2px;
+    left: 50px;
+}
+
+input[name="emailForm"]{
+    position: absolute;
+    font-size: 9pt;
+    width: 150px;
+    height: 15px;
+    top: -2px;
+    left: 310px;
+}
+
+.mail {
+    position: absolute;
+    right: 595px;
+}
+
+.file {
+    position: absolute;
+    right: 380px;
+}
+
+.chooseButton {
+    position: absolute;
+    left: 530px;
+    top: -2px;
+}
+
+.subscribe {
+    cursor: pointer;
+    position: absolute;
+    top: -10px;
+    left: 860px;
+    width: 130px;
+    height: 40px;
+    font-size: 14pt;
+    background-color: #88cb5f;
+    border: none;
+    color: white;
+}
+
+#content {
+    min-width: 960px;
+    max-width: 1600px;
+    position: relative;
+    margin: 0 auto;
+    min-height: 550px;
+    z-index: 1;
+}
+
+#requested-param {
+    border: 2px solid grey;
+    min-height: 30px;
+    width: 300px;
+}
