@@ -11,6 +11,7 @@ use Application\BootStrap;
 
 class Application
 {
+    private $_magic;
 
     /**
      *  Constants of Application
